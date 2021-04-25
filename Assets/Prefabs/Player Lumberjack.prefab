@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &580741328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2810910514869763372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda064670edb7474cadb1bd3672caea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &8467226876652447619
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8177627983215745831, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 6504f5a828b0548cbb26aa69de878e9a, type: 3}
+    - target: {fileID: -8177627983215745831, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086447, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_Name
+      value: Player Lumberjack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945874950404086451, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+--- !u!1 &2810910514869763372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945874950404086447, guid: b59260811ecfc45f28a35fa88f5a29ad, type: 3}
+  m_PrefabInstance: {fileID: 8467226876652447619}
+  m_PrefabAsset: {fileID: 0}
