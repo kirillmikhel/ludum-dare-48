@@ -22,6 +22,8 @@ public class TheTreePickUp : MonoBehaviour
         if (other.CompareTag("Lumberjack"))
         {
             transform.SetParent(other.transform);
+            transform.localPosition = Vector3.zero;
+            transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             enabled = false;
         }
     }

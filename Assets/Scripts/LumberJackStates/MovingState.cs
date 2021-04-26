@@ -25,6 +25,7 @@ public class MovingState : MonoBehaviour
         _playerInput = GetComponent<PlayerInput>();
         _lumberjackData = GetComponent<LumberjackData>();
         _navMeshAgent = GetComponent<NavMeshAgent>();
+        _navMeshAgent.updateRotation = false;
         _camera = Camera.main;
     }
 

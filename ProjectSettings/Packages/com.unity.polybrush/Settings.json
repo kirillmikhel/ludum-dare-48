@@ -64,6 +64,11 @@
                 "value": "{\"m_Value\":true}"
             },
             {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "Mesh.RebuildNormals",
+                "value": "{\"m_Value\":true}"
+            },
+            {
                 "type": "UnityEngine.Polybrush.BrushMirror, Unity.Polybrush, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "Brush.MirrorAxis",
                 "value": "{\"m_Value\":0}"
@@ -89,9 +94,14 @@
                 "value": "{\"m_Value\":5.0}"
             },
             {
+                "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "Brush.VertexBillboardSize",
+                "value": "{\"m_Value\":2.0}"
+            },
+            {
                 "type": "UnityEditor.Polybrush.PrefabLoadout, Unity.Polybrush.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ScatteringEditor.userLoadout",
-                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"e1355dc83440744be839019cea45e6c2\",\"type\":2},\"prefab\":{\"fileID\":5844932390476262879,\"guid\":\"72a2efd3716cb4789b04454b2897fdda\",\"type\":3}}]}}"
+                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"2a349ec671f6d415c8893c285f0188de\",\"type\":2},\"prefab\":{\"fileID\":100000,\"guid\":\"1a66215adc19a284fa289b1114b16460\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"2a349ec671f6d415c8893c285f0188de\",\"type\":2},\"prefab\":{\"fileID\":100000,\"guid\":\"2b2aa88ce3a6a6f48acf62cf0fc5ed72\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"2a349ec671f6d415c8893c285f0188de\",\"type\":2},\"prefab\":{\"fileID\":100000,\"guid\":\"d073ae13f5405e149b11de3268b91710\",\"type\":3}}]}}"
             },
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",

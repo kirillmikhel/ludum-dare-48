@@ -3103,3 +3103,566 @@ Received Import Request.
 Start importing Assets/Prefabs/Tree.prefab using Guid(72a2efd3716cb4789b04454b2897fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8543b09e0e0b8f7a032a5d46519f69') in 0.272745 seconds
   Import took 0.281789 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 673.138480 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/campfire_large.fbx
+  artifactKey: Guid(22dbd17c5c7738b41aa3472aeda9d8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/campfire_large.fbx using Guid(22dbd17c5c7738b41aa3472aeda9d8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e2b948826784b38f81eb950ba37a98') in 0.753204 seconds
+  Import took 0.761948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/campfire_small.fbx
+  artifactKey: Guid(dd84cdc42824ab944b2d063559c02099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/campfire_small.fbx using Guid(dd84cdc42824ab944b2d063559c02099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6a139ee3abf282e45620467ea6483d') in 0.044468 seconds
+  Import took 0.053074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020885 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/campfire_small.fbx
+  artifactKey: Guid(dd84cdc42824ab944b2d063559c02099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/campfire_small.fbx using Guid(dd84cdc42824ab944b2d063559c02099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6a139ee3abf282e45620467ea6483d') in 0.030334 seconds
+  Import took 0.039407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370565 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/fence_cornerRoundStrong.fbx
+  artifactKey: Guid(589dea57459ea3543a0fe378093d1aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/fence_cornerRoundStrong.fbx using Guid(589dea57459ea3543a0fe378093d1aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39327c4226392fb6b133cbb20e17c1de') in 0.024942 seconds
+  Import took 0.032939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.892221 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/Materials
+  artifactKey: Guid(8e97bfa2cb7fdbf4eb8092c9e6a972cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/Materials using Guid(8e97bfa2cb7fdbf4eb8092c9e6a972cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44daac0522d5db5bf4bf986e4ca6f380') in 0.001101 seconds
+  Import took 0.009374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001252 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/Materials
+  artifactKey: Guid(8e97bfa2cb7fdbf4eb8092c9e6a972cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/Materials using Guid(8e97bfa2cb7fdbf4eb8092c9e6a972cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44daac0522d5db5bf4bf986e4ca6f380') in 0.001169 seconds
+  Import took 0.009349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.674773 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/log_small.fbx
+  artifactKey: Guid(c9a9552731d8fb243b5ef4fc2e741fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/log_small.fbx using Guid(c9a9552731d8fb243b5ef4fc2e741fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad52f0af4fe714cd44980d8a68093ad7') in 0.031989 seconds
+  Import took 0.039515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.811046 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red3.fbx
+  artifactKey: Guid(305493b43f2148a468de04274e158b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red3.fbx using Guid(305493b43f2148a468de04274e158b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5419911faf22d0ad22a08e9fd1f91aec') in 0.034704 seconds
+  Import took 0.041799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007278 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red3.fbx
+  artifactKey: Guid(305493b43f2148a468de04274e158b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red3.fbx using Guid(305493b43f2148a468de04274e158b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5419911faf22d0ad22a08e9fd1f91aec') in 0.021751 seconds
+  Import took 0.028551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.429209 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red2.fbx
+  artifactKey: Guid(4f358edf1e669764d8bc86006fc99121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red2.fbx using Guid(4f358edf1e669764d8bc86006fc99121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4c50c05507c7333e44fab958ef69f2') in 0.024269 seconds
+  Import took 0.032220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608965 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue3.fbx
+  artifactKey: Guid(9400492b6e7a6dd43a64005e0746d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue3.fbx using Guid(9400492b6e7a6dd43a64005e0746d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a99650a185654adc235ab0c420e3c') in 0.025140 seconds
+  Import took 0.031710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.272774 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/logs_stack.fbx
+  artifactKey: Guid(8b003594f69230145b3f291ec227f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/logs_stack.fbx using Guid(8b003594f69230145b3f291ec227f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e095c2c3b948fb45f49877940ceb88') in 0.022273 seconds
+  Import took 0.029898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.819981 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue2.fbx
+  artifactKey: Guid(c077c5967e4cb054fa20a61d4d7983ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue2.fbx using Guid(c077c5967e4cb054fa20a61d4d7983ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563669849287065ac7f0ed46aebae2f1') in 0.039714 seconds
+  Import took 0.046315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014560 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue2.fbx
+  artifactKey: Guid(c077c5967e4cb054fa20a61d4d7983ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue2.fbx using Guid(c077c5967e4cb054fa20a61d4d7983ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563669849287065ac7f0ed46aebae2f1') in 0.018149 seconds
+  Import took 0.025022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127684 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue1.fbx
+  artifactKey: Guid(4ecda3f6fa2e4cb46888d22fb3ccef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_blue1.fbx using Guid(4ecda3f6fa2e4cb46888d22fb3ccef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e842f4b000849c622b1c1ac4535a7a') in 0.024135 seconds
+  Import took 0.032184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076419 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_beige3.fbx
+  artifactKey: Guid(d073ae13f5405e149b11de3268b91710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_beige3.fbx using Guid(d073ae13f5405e149b11de3268b91710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0f94e7c889fc1695447827a1c0dcbf') in 0.028690 seconds
+  Import took 0.035621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141612 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_beige2.fbx
+  artifactKey: Guid(2b2aa88ce3a6a6f48acf62cf0fc5ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_beige2.fbx using Guid(2b2aa88ce3a6a6f48acf62cf0fc5ed72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8e5bba38904b57d6fab4764e01da6b') in 0.020760 seconds
+  Import took 0.028332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.665673 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red1.fbx
+  artifactKey: Guid(655712df40035ff4fa29e178486924a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/flower_red1.fbx using Guid(655712df40035ff4fa29e178486924a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac3d30b0b562758138e9509f54d1328') in 0.021556 seconds
+  Import took 0.031249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.766695 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/fence_cornerRound.fbx
+  artifactKey: Guid(d989ca92fee6ec0429d1ed410ea1b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/fence_cornerRound.fbx using Guid(d989ca92fee6ec0429d1ed410ea1b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6380ae287d5142d46a61c416bdf3f5') in 0.019459 seconds
+  Import took 0.028132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.992802 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/grass_dense.fbx
+  artifactKey: Guid(ada9fade606cd9b409cade7b636af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/grass_dense.fbx using Guid(ada9fade606cd9b409cade7b636af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd9b62b32d8b2b32aa6f36361ffa27') in 0.029997 seconds
+  Import took 0.037982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004386 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/grass_dense.fbx
+  artifactKey: Guid(ada9fade606cd9b409cade7b636af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/grass_dense.fbx using Guid(ada9fade606cd9b409cade7b636af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd9b62b32d8b2b32aa6f36361ffa27') in 0.017286 seconds
+  Import took 0.024268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.669334 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/plant_flatSmall.fbx
+  artifactKey: Guid(bc1bedcc2d66a8a489055242096ee9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/plant_flatSmall.fbx using Guid(bc1bedcc2d66a8a489055242096ee9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6980a846f3be514062658925b9c6b80') in 0.060182 seconds
+  Import took 0.069266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.320805 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/stone_large3.fbx
+  artifactKey: Guid(dc3c0f651f80d534ba8e58f224d192a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/stone_large3.fbx using Guid(dc3c0f651f80d534ba8e58f224d192a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdbcc22eea92c5f469fad38d052936c') in 0.023591 seconds
+  Import took 0.031318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.254514 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_short_detailed.fbx
+  artifactKey: Guid(0ddc56c24c8e6e043bd2274386968bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_short_detailed.fbx using Guid(0ddc56c24c8e6e043bd2274386968bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd091b1b8287728ea82e021268f58d993') in 0.027856 seconds
+  Import took 0.036478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011077 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_short_detailed.fbx
+  artifactKey: Guid(0ddc56c24c8e6e043bd2274386968bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_short_detailed.fbx using Guid(0ddc56c24c8e6e043bd2274386968bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd091b1b8287728ea82e021268f58d993') in 0.019387 seconds
+  Import took 0.028261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.498848 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/stone_tall10.fbx
+  artifactKey: Guid(65b767591973d6a4aa2a53cccc54f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/stone_tall10.fbx using Guid(65b767591973d6a4aa2a53cccc54f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f32b5e0ef83b33007350c37c38afa9') in 0.018533 seconds
+  Import took 0.026363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864244 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare.fbx
+  artifactKey: Guid(14fec9d7fdd476847be438876f5e5cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare.fbx using Guid(14fec9d7fdd476847be438876f5e5cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1cc8724752c742cd4ec6d4c5f7c49e') in 0.041763 seconds
+  Import took 0.050032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003324 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare.fbx
+  artifactKey: Guid(14fec9d7fdd476847be438876f5e5cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare.fbx using Guid(14fec9d7fdd476847be438876f5e5cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1cc8724752c742cd4ec6d4c5f7c49e') in 0.019042 seconds
+  Import took 0.026342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.567948 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tallSquare_detailed.fbx
+  artifactKey: Guid(5476827b34bc1924ab2d82dc7b24f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tallSquare_detailed.fbx using Guid(5476827b34bc1924ab2d82dc7b24f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f81c50308aee6c66da7c118508e6111') in 0.032242 seconds
+  Import took 0.039339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009783 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tallSquare_detailed.fbx
+  artifactKey: Guid(5476827b34bc1924ab2d82dc7b24f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tallSquare_detailed.fbx using Guid(5476827b34bc1924ab2d82dc7b24f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f81c50308aee6c66da7c118508e6111') in 0.025367 seconds
+  Import took 0.033649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.420774 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tall.fbx
+  artifactKey: Guid(9874c806cf603274ca63d6bab7f45e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tall.fbx using Guid(9874c806cf603274ca63d6bab7f45e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900aefc8b1ecf0bdcc218b0439f01ec8') in 0.020857 seconds
+  Import took 0.027452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.091839 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare_detailed.fbx
+  artifactKey: Guid(5e4d11b4d189c9a468a2da06c12cc3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare_detailed.fbx using Guid(5e4d11b4d189c9a468a2da06c12cc3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b987d7a22acb19172ec382704c8298') in 0.037547 seconds
+  Import took 0.047167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580174 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_short.fbx
+  artifactKey: Guid(77439c442530204449c3a58dd48f663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_short.fbx using Guid(77439c442530204449c3a58dd48f663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e898525ab1e53e4d59be6e15385c5f4d') in 0.020147 seconds
+  Import took 0.028380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924983 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tall_detailed.fbx
+  artifactKey: Guid(3b07228c415e4f846aa093d8bd0d07cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tall_detailed.fbx using Guid(3b07228c415e4f846aa093d8bd0d07cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac4835727c6616216811da285996659') in 0.022993 seconds
+  Import took 0.030304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183828 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tallSquare.fbx
+  artifactKey: Guid(07ca833a877d79a4c9f54ac3051bccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tallSquare.fbx using Guid(07ca833a877d79a4c9f54ac3051bccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd45dcedb1dc8730e62ac2f01a94f0c') in 0.019349 seconds
+  Import took 0.027321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.728154 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round1.fbx
+  artifactKey: Guid(fc1c180306c97e94d84d858c8ae5e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round1.fbx using Guid(fc1c180306c97e94d84d858c8ae5e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c127786a034c2a247aee5e2da63ad2') in 0.020181 seconds
+  Import took 0.027489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138895 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round2.fbx
+  artifactKey: Guid(50db13c0931cffc4aae82cdf177ad2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round2.fbx using Guid(50db13c0931cffc4aae82cdf177ad2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5052da74f4f5f25b8bf9ca30379ea5ce') in 0.020898 seconds
+  Import took 0.029610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.538355 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round3.fbx
+  artifactKey: Guid(521fda6324bc8f24f8b1aa159cd63163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round3.fbx using Guid(521fda6324bc8f24f8b1aa159cd63163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c1892cd2c6b8dbabc293f44fea58a6') in 0.025272 seconds
+  Import took 0.031994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.605784 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round4.fbx
+  artifactKey: Guid(bf2f47abc0ed6c14fa6d5308996ffcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round4.fbx using Guid(bf2f47abc0ed6c14fa6d5308996ffcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4d43947231853fffb628899a7fff59') in 0.051959 seconds
+  Import took 0.058696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.577804 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round5.fbx
+  artifactKey: Guid(dd5e68da64c9e11429b62987a101f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round5.fbx using Guid(dd5e68da64c9e11429b62987a101f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8d5f898c50fb5433345e46cf345174') in 0.035221 seconds
+  Import took 0.044341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004254 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round5.fbx
+  artifactKey: Guid(dd5e68da64c9e11429b62987a101f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round5.fbx using Guid(dd5e68da64c9e11429b62987a101f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8d5f898c50fb5433345e46cf345174') in 0.018447 seconds
+  Import took 0.025482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263708 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_square1.fbx
+  artifactKey: Guid(5c3a2181a44607842b5ea8509beb768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_square1.fbx using Guid(5c3a2181a44607842b5ea8509beb768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8a41505de60dc644919c23934c11f') in 0.045183 seconds
+  Import took 0.052686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002948 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_square1.fbx
+  artifactKey: Guid(5c3a2181a44607842b5ea8509beb768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_square1.fbx using Guid(5c3a2181a44607842b5ea8509beb768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8a41505de60dc644919c23934c11f') in 0.018449 seconds
+  Import took 0.026097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.929387 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round1.fbx
+  artifactKey: Guid(fc1c180306c97e94d84d858c8ae5e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round1.fbx using Guid(fc1c180306c97e94d84d858c8ae5e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23afe22cebf21caf4ee2cdbf6021da9') in 0.030501 seconds
+  Import took 0.037170 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.065 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 302.9 MB.
+System memory in use after: 303.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4526.
+Total: 4.815469 ms (FindLiveObjects: 0.589528 ms CreateObjectMapping: 0.201376 ms MarkObjects: 3.930977 ms  DeleteObjects: 0.092089 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.862858 seconds.
+  path: Assets/Prefabs/Tree.prefab
+  artifactKey: Guid(72a2efd3716cb4789b04454b2897fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tree.prefab using Guid(72a2efd3716cb4789b04454b2897fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf5492c89b989d42d495843a17de6a8') in 0.268213 seconds
+  Import took 0.274734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.432770 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round1.fbx
+  artifactKey: Guid(fc1c180306c97e94d84d858c8ae5e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round1.fbx using Guid(fc1c180306c97e94d84d858c8ae5e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ded9c0a1021622d65a98ce4a13c070') in 0.051831 seconds
+  Import took 0.059332 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.051 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.8 MB.
+System memory in use after: 304.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4565.
+Total: 5.864121 ms (FindLiveObjects: 0.626858 ms CreateObjectMapping: 0.266086 ms MarkObjects: 4.869067 ms  DeleteObjects: 0.100276 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.358628 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tall.fbx
+  artifactKey: Guid(9874c806cf603274ca63d6bab7f45e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_tall.fbx using Guid(9874c806cf603274ca63d6bab7f45e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922ac2ea06c57eb343576c62fa887bd') in 0.362036 seconds
+  Import took 0.369888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617133 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare_detailed.fbx
+  artifactKey: Guid(5e4d11b4d189c9a468a2da06c12cc3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pine_shortSquare_detailed.fbx using Guid(5e4d11b4d189c9a468a2da06c12cc3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ed6ef9b80ffbb8a0fe41c58a2f9b4') in 0.018965 seconds
+  Import took 0.026046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.264296 seconds.
+  path: Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round2.fbx
+  artifactKey: Guid(50db13c0931cffc4aae82cdf177ad2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Nature Kit/Models/FBX format/tree_pineSmall_round2.fbx using Guid(50db13c0931cffc4aae82cdf177ad2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c59db2139e009a8cc5b5233dd40250e') in 0.042632 seconds
+  Import took 0.051476 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 304.3 MB.
+System memory in use after: 304.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4604.
+Total: 4.460308 ms (FindLiveObjects: 0.619079 ms CreateObjectMapping: 0.241844 ms MarkObjects: 3.503850 ms  DeleteObjects: 0.093927 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.825 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 304.8 MB.
+System memory in use after: 305.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4607.
+Total: 4.587467 ms (FindLiveObjects: 0.691454 ms CreateObjectMapping: 0.433264 ms MarkObjects: 3.374468 ms  DeleteObjects: 0.086527 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2993 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 305.2 MB.
+System memory in use after: 305.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 4.683127 ms (FindLiveObjects: 0.584532 ms CreateObjectMapping: 0.243195 ms MarkObjects: 3.761908 ms  DeleteObjects: 0.091507 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001191 seconds.
+Callback registration failed. Increase kMaxCallback.
+
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+
+Obtained 42 stack frames.
+#0  0x007fff20530462 in __pthread_kill
+#1  0x007fff204b1720 in abort
+#2  0x00000110fc685e in CrashDontLaunchBugReporter()
+#3  0x0000010ebe6797 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry const&)
+#4  0x0000010ebe5b97 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x0000010ebe752e in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x0000011099e1fd in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x0000011099eae3 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x0000010c60afa4 in CallbackArrayBase<void (*)(AssemblyLoadFailure), void (*)(void const*, AssemblyLoadFailure)>::Register(void (*)(AssemblyLoadFailure), void (*)(void const*, AssemblyLoadFailure), void const*)
+#9  0x0000010f57f608 in LoadDomainAndUserAssemblies(bool)
+#10 0x0000010f581ffe in LoadUserAssemblies()
+#11 0x0000010fa1d839 in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#12 0x0000010fa24cfa in core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_1>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_1&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+#13 0x0000010faf5de0 in asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+#14 0x0000010faf30a5 in asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+#15 0x0000010faf2b41 in asio::detail::task_io_service::run(std::__1::error_code&)
+#16 0x0000010faece0a in IOService::Run(bool)
+#17 0x0000010fa4ed9c in RunAssetImporterV2()
+#18 0x0000010ed5d673 in Application::InitializeProject()
+#19 0x00000110fd21bd in -[EditorApplication applicationDidFinishLaunching:]
+#20 0x007fff2064bfec in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#21 0x007fff206e789b in ___CFXRegistrationPost_block_invoke
+#22 0x007fff206e780f in _CFXRegistrationPost
+#23 0x007fff2061cbde in _CFXNotificationPost
+#24 0x007fff2138babe in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#25 0x007fff22e7db2d in -[NSApplication _postDidFinishNotification]
+#26 0x007fff22e7d87b in -[NSApplication _sendFinishLaunchingNotification]
+#27 0x007fff22e7aa72 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#28 0x007fff22e7a6c7 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#29 0x007fff213b7056 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#30 0x007fff213b6ec6 in _NSAppleEventManagerGenericHandler
+#31 0x007fff26434ed9 in _AppleEventsCheckInAppWithBlock
+#32 0x007fff264345f4 in _AppleEventsCheckInAppWithBlock
+#33 0x007fff2642d260 in aeProcessAppleEvent
+#34 0x007fff288ee5a2 in AEProcessAppleEvent
+#35 0x007fff22e74e3e in _DPSNextEvent
+#36 0x007fff22e73177 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#37 0x007fff22e6568a in -[NSApplication run]
+#38 0x007fff22e3996f in NSApplicationMain
+#39 0x0000011100cf89 in EditorMain(int, char const**)
+#40 0x0000011100d1b9 in main
+#41 0x007fff20579621 in start
