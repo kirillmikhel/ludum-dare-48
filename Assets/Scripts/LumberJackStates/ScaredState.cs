@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class ScaredState : MonoBehaviour
 {
     private LumberjackData _lumberjackData;
+    private static readonly int IsScared = Animator.StringToHash("IsScared");
 
     private void Awake()
     {
@@ -22,7 +23,12 @@ public class ScaredState : MonoBehaviour
     {
         _lumberjackData = GetComponent<LumberjackData>();
 
-        Debug.Log("So scary!");
+        GetComponentInChildren<Animator>().SetBool(IsScared, true);
+    }
+
+    private void OnDisable()
+    {
+        GetComponentInChildren<Animator>().SetBool(IsScared, false);
     }
 
     // Update is called once per frame

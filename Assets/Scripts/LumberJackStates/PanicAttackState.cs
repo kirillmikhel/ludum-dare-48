@@ -13,6 +13,7 @@ public class PanicAttackState : MonoBehaviour
     private LumberjackStateMachine _lumberjackStateMachine;
     private LumberjackData _lumberjackData;
     private MovingState _movingState;
+    private static readonly int IsPanicking = Animator.StringToHash("IsPanicking");
 
     private void Awake()
     {
@@ -30,8 +31,15 @@ public class PanicAttackState : MonoBehaviour
     {
         _lumberjackData = GetComponent<LumberjackData>();
         _lumberjackData.panic = _lumberjackData.panicLimit / 2;
+        
+        GetComponentInChildren<Animator>().SetBool(IsPanicking, true);
 
         StartCoroutine(PanicAttackResolving());
+    }
+
+    private void OnDisable()
+    {
+        GetComponentInChildren<Animator>().SetBool(IsPanicking, false);
     }
 
     private IEnumerator PanicAttackResolving()
