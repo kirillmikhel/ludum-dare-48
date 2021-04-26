@@ -13,6 +13,8 @@ public class MovingState : MonoBehaviour
 
     private LumberjackData _lumberjackData;
     private PlayerInput _playerInput;
+    private Animator _animator;
+    private static readonly int Speed = Animator.StringToHash("Speed");
 
     private void Awake()
     {
@@ -22,6 +24,7 @@ public class MovingState : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _animator = GetComponentInChildren<Animator>();
         _playerInput = GetComponent<PlayerInput>();
         _lumberjackData = GetComponent<LumberjackData>();
         _navMeshAgent = GetComponent<NavMeshAgent>();
@@ -39,6 +42,8 @@ public class MovingState : MonoBehaviour
     {
         GetComponent<PlayerInput>().actions["Axe Swing"].started -= StartTargetSearch;
         GetComponent<PlayerInput>().actions["Start Relaxing"].performed -= StartRelaxing;
+
+        GetComponentInChildren<Animator>().SetFloat(Speed, 0);
     }
 
     private void StartRelaxing(InputAction.CallbackContext obj)
@@ -83,5 +88,7 @@ public class MovingState : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction),
                 _lumberjackData.rotationSpeed * Time.deltaTime);
         }
+
+        _animator.SetFloat(Speed, direction.sqrMagnitude);
     }
 }

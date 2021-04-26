@@ -23,7 +23,7 @@ public class RelaxingAtFireState : MonoBehaviour
     private void OnEnable()
     {
         GetComponent<LumberjackData>().isRelaxing = true;
-        GetComponent<PlayerInput>().actions["Stop Relaxing"].performed += StopRelaxing;
+        GetComponent<PlayerInput>().actions["Start Relaxing"].performed += StopRelaxing;
 
         bonfireInstance = Instantiate(bonfirePrefab, transform);
         bonfireInstance.transform.localPosition = new Vector3(0, -0.5f, 2.0f);
@@ -32,7 +32,7 @@ public class RelaxingAtFireState : MonoBehaviour
     private void OnDisable()
     {
         GetComponent<LumberjackData>().isRelaxing = false;
-        GetComponent<PlayerInput>().actions["Stop Relaxing"].performed -= StopRelaxing;
+        GetComponent<PlayerInput>().actions["Start Relaxing"].performed -= StopRelaxing;
 
         Destroy(bonfireInstance);
     }

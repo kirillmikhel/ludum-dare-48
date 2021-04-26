@@ -10,6 +10,7 @@ public class WoodCuttingState : MonoBehaviour
     public Tree target;
     private LumberjackData _lumberjackData;
     private Coroutine _cuttingCoroutine;
+    private static readonly int IsSwingingAxe = Animator.StringToHash("IsSwingingAxe");
 
     private void Awake()
     {
@@ -25,10 +26,12 @@ public class WoodCuttingState : MonoBehaviour
     private void OnEnable()
     {
         GetComponent<PlayerInput>().actions["Axe Swing"].canceled += TransitionToMovingState;
-        _cuttingCoroutine = StartCoroutine(Cutting());
+        // _cuttingCoroutine = StartCoroutine(Cutting());
 
         var direction = target.transform.position - transform.position;
         transform.rotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z).normalized);
+        
+        GetComponentInChildren<Animator>().SetBool(IsSwingingAxe, true);
     }
 
 
@@ -42,6 +45,8 @@ public class WoodCuttingState : MonoBehaviour
         }
 
         target = null;
+        
+        GetComponentInChildren<Animator>().SetBool(IsSwingingAxe, false);
     }
 
     private void Update()
@@ -55,6 +60,13 @@ public class WoodCuttingState : MonoBehaviour
     private void TransitionToMovingState(InputAction.CallbackContext ctx)
     {
         GetComponent<LumberjackStateMachine>().TransitionTo(GetComponent<MovingState>());
+    }
+
+    public void TreeHit()
+    {
+        if (target == null) return;
+        
+        target.ReceiveDamage(_lumberjackData.GetAxeDamage());
     }
 
     private IEnumerator Cutting()

@@ -7,6 +7,7 @@ public class PanicMeter : MonoBehaviour
 {
     public Slider slider;
     public LumberjackData lumberjackData;
+    public Text text;
     
     // Start is called before the first frame update
     void Start()
@@ -18,5 +19,6 @@ public class PanicMeter : MonoBehaviour
     void Update()
     {
         slider.value = lumberjackData.panic;
+        text.text = $"Panic level ({lumberjackData.panic}/{lumberjackData.panicLimit})";
     }
 }

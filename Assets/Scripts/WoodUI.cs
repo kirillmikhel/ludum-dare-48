@@ -12,7 +12,7 @@ public class WoodUI : MonoBehaviour
     private void Update()
     {
         text.text = lumberjackData.wood >= lumberjackData.woodRequiredForFire
-            ? $"Wood (ready!): {lumberjackData.wood}/{lumberjackData.woodRequiredForFire}"
+            ? $"Wood (Ready! Press F): {lumberjackData.wood}/{lumberjackData.woodRequiredForFire}"
             : $"Wood (to make fire): {lumberjackData.wood}/{lumberjackData.woodRequiredForFire}";
     }
 }
