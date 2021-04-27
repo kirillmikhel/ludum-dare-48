@@ -64,7 +64,7 @@ public class PanicAttackState : MonoBehaviour
                 Overcoming.DoubleSpeed,
             };
 
-            _lumberjackData.overcomings.Add(possibleOvercomings[Random.Range(0, possibleOvercomings.Length - 1)]);
+            _lumberjackData.overcomings.Add(possibleOvercomings[Random.Range(0, possibleOvercomings.Length)]);
             StartCoroutine(ClearAllOvercomings());
         }
         else
@@ -76,7 +76,7 @@ public class PanicAttackState : MonoBehaviour
                 Quirk.TooScaredToMove,
             };
 
-            _lumberjackData.quirks.Add(possibleQuirks[Random.Range(0, possibleQuirks.Length - 1)]);
+            _lumberjackData.quirks.Add(possibleQuirks[Random.Range(0, possibleQuirks.Length)]);
         }
 
         _lumberjackStateMachine.TransitionTo(_movingState);

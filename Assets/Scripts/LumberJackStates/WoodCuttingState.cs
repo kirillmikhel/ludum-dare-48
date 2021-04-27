@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
@@ -10,7 +9,6 @@ public class WoodCuttingState : MonoBehaviour
 {
     public Tree target;
     private LumberjackData _lumberjackData;
-    private Coroutine _cuttingCoroutine;
     private static readonly int IsSwingingAxe = Animator.StringToHash("IsSwingingAxe");
 
     private void Awake()
@@ -27,11 +25,6 @@ public class WoodCuttingState : MonoBehaviour
     private void OnEnable()
     {
         GetComponent<PlayerInput>().actions["Axe Swing"].canceled += TransitionToMovingState;
-        // _cuttingCoroutine = StartCoroutine(Cutting());
-
-        var direction = target.transform.position - transform.position;
-        transform.rotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z).normalized);
-        
         GetComponentInChildren<Animator>().SetBool(IsSwingingAxe, true);
     }
 
@@ -40,13 +33,8 @@ public class WoodCuttingState : MonoBehaviour
     {
         GetComponent<PlayerInput>().actions["Axe Swing"].canceled -= TransitionToMovingState;
 
-        if (_cuttingCoroutine != null)
-        {
-            StopCoroutine(_cuttingCoroutine);
-        }
-
         target = null;
-        
+
         GetComponentInChildren<Animator>().SetBool(IsSwingingAxe, false);
     }
 
@@ -56,6 +44,11 @@ public class WoodCuttingState : MonoBehaviour
         {
             GetComponent<LumberjackStateMachine>().TransitionTo(GetComponent<ScaredState>());
         }
+
+        var transform1 = transform;
+        var direction = target.transform.position - transform1.position;
+        transform.rotation = Quaternion.Slerp(transform1.rotation, Quaternion.LookRotation(direction),
+            _lumberjackData.rotationSpeed * Time.deltaTime);
     }
 
     private void TransitionToMovingState(InputAction.CallbackContext ctx)
@@ -66,23 +59,13 @@ public class WoodCuttingState : MonoBehaviour
     public void TreeHit()
     {
         if (target == null) return;
-        
+
         target.ReceiveDamage(_lumberjackData.GetAxeDamage());
-    }
 
-    private IEnumerator Cutting()
-    {
-        while (true)
+        if (target.IsDead)
         {
-            yield return new WaitForSeconds(1);
-
-            target.ReceiveDamage(_lumberjackData.GetAxeDamage());
-
-            if (target.IsDead)
-            {
-                target = null;
-                GetComponent<LumberjackStateMachine>().TransitionTo(GetComponent<MovingState>());
-            }
+            target = null;
+            GetComponent<LumberjackStateMachine>().TransitionTo(GetComponent<TargetSearchState>());
         }
     }
 }
