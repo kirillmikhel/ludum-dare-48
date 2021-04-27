@@ -1,4 +1,6 @@
 public enum Quirk
 {
-    TooScaredToMove
+    TooScaredToMove,
+    Weak,
+    CanNotUseBonfire
 }

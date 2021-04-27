@@ -1,4 +1,5 @@
 public enum Overcoming
 {
-    InstantTreeCutting
+    InstantTreeCutting,
+    DoubleSpeed
 }

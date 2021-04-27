@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TheTreeDropOff : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class TheTreeDropOff : MonoBehaviour
             other.transform.SetParent(transform);
             other.transform.localPosition = Vector3.zero;
             enabled = false;
+
+            SceneManager.LoadScene("Victory");
         }
     }
 }

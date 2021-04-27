@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: -8177627983215745831}
   - component: {fileID: -170542582062356727}
   - component: {fileID: 5707508227981095885}
+  - component: {fileID: 5251069160838591638}
   m_Layer: 0
   m_Name: Lumberjack
   m_TagString: Lumberjack
@@ -210,6 +211,7 @@ MonoBehaviour:
   overcomingSuccessRate: 0.25
   panicAttackDuration: 2
   overcomingDuration: 10
+  panicAttackEffect: {fileID: 0}
 --- !u!114 &-2676680992905753291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,6 +319,48 @@ MonoBehaviour:
   maxQuirkActivationPeriod: 10
   minimumQuirkActivationPeriod: 4
   quirkDuration: 3
+--- !u!114 &5251069160838591638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945874950404086447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_RawSignal: {fileID: 11400000, guid: 07ea6f7a8a2d14e40a6becf2d773f6cc, type: 2}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 1000
+    m_PropagationSpeed: 343
 --- !u!114 &4537001250621611175
 MonoBehaviour:
   m_ObjectHideFlags: 0

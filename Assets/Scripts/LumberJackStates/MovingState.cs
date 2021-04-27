@@ -50,6 +50,7 @@ public class MovingState : MonoBehaviour
     {
         if (_lumberjackData.IsCarryingTheTree()) return;
         if (!_lumberjackData.HasEnoughWood()) return;
+        if (!_lumberjackData.CanUseBonfire()) return;
 
         _lumberjackData.wood -= _lumberjackData.woodRequiredForFire;
 
@@ -83,12 +84,13 @@ public class MovingState : MonoBehaviour
 
         if (direction.sqrMagnitude > 0)
         {
-            _navMeshAgent.Move(direction * (_lumberjackData.speed * Time.deltaTime));
+            _navMeshAgent.Move(direction * (_lumberjackData.GetSpeed() * Time.deltaTime));
 
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction),
                 _lumberjackData.rotationSpeed * Time.deltaTime);
         }
 
-        _animator.SetFloat(Speed, direction.sqrMagnitude);
+        _animator.SetFloat(Speed,
+            direction.sqrMagnitude > 0 ? _lumberjackData.overcomings.Contains(Overcoming.DoubleSpeed) ? 2 : 1 : 0);
     }
 }

@@ -23,10 +23,24 @@ public class LumberjackData : MonoBehaviour
 
     public int GetAxeDamage()
     {
-        return overcomings.Contains(Overcoming.InstantTreeCutting) ? 9000 : baseAxeDamage;
+        if (overcomings.Contains(Overcoming.InstantTreeCutting))
+        {
+            return 9000;
+        }
+
+        if (activeQuirks.Contains(Quirk.Weak))
+        {
+            return 0;
+        }
+
+        return baseAxeDamage;
     }
 
     public bool IsCarryingTheTree() => GameObject.FindWithTag("The Tree").transform.parent == transform;
 
     public bool HasEnoughWood() => wood >= woodRequiredForFire;
+
+    public bool CanUseBonfire() => !activeQuirks.Contains(Quirk.CanNotUseBonfire);
+
+    public float GetSpeed() => overcomings.Contains(Overcoming.DoubleSpeed) ? speed * 2 : speed;
 }

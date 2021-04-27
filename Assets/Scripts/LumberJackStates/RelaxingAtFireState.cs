@@ -26,7 +26,7 @@ public class RelaxingAtFireState : MonoBehaviour
         GetComponent<PlayerInput>().actions["Start Relaxing"].performed += StopRelaxing;
 
         bonfireInstance = Instantiate(bonfirePrefab, transform);
-        bonfireInstance.transform.localPosition = new Vector3(0, -0.5f, 2.0f);
+        bonfireInstance.transform.localPosition = new Vector3(0, 0, 2.0f);
     }
 
     private void OnDisable()

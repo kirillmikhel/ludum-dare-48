@@ -10,6 +10,7 @@ public class PanicAttackState : MonoBehaviour
     public float overcomingSuccessRate = 0.25f;
     public float panicAttackDuration = 2.0f;
     public float overcomingDuration = 5.0f;
+    public PanicAttackEffect panicAttackEffect;
     private LumberjackStateMachine _lumberjackStateMachine;
     private LumberjackData _lumberjackData;
     private MovingState _movingState;
@@ -31,15 +32,18 @@ public class PanicAttackState : MonoBehaviour
     {
         _lumberjackData = GetComponent<LumberjackData>();
         _lumberjackData.panic = _lumberjackData.panicLimit / 2;
-        
+
         GetComponentInChildren<Animator>().SetBool(IsPanicking, true);
 
         StartCoroutine(PanicAttackResolving());
+
+        panicAttackEffect.gameObject.SetActive(true);
     }
 
     private void OnDisable()
     {
         GetComponentInChildren<Animator>().SetBool(IsPanicking, false);
+        panicAttackEffect.gameObject.SetActive(false);
     }
 
     private IEnumerator PanicAttackResolving()
@@ -54,12 +58,25 @@ public class PanicAttackState : MonoBehaviour
 
         if (hasOvercome)
         {
-            _lumberjackData.overcomings.Add(Overcoming.InstantTreeCutting);
+            var possibleOvercomings = new[]
+            {
+                Overcoming.InstantTreeCutting,
+                Overcoming.DoubleSpeed,
+            };
+
+            _lumberjackData.overcomings.Add(possibleOvercomings[Random.Range(0, possibleOvercomings.Length - 1)]);
             StartCoroutine(ClearAllOvercomings());
         }
         else
         {
-            _lumberjackData.quirks.Add(Quirk.TooScaredToMove);
+            var possibleQuirks = new[]
+            {
+                Quirk.Weak,
+                Quirk.CanNotUseBonfire,
+                Quirk.TooScaredToMove,
+            };
+
+            _lumberjackData.quirks.Add(possibleQuirks[Random.Range(0, possibleQuirks.Length - 1)]);
         }
 
         _lumberjackStateMachine.TransitionTo(_movingState);
@@ -68,7 +85,7 @@ public class PanicAttackState : MonoBehaviour
     private IEnumerator ClearAllOvercomings()
     {
         yield return new WaitForSeconds(overcomingDuration);
-        
+
         _lumberjackData.overcomings.Clear();
     }
 
