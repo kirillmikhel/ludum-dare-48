@@ -5,11 +5,23 @@ namespace Editor.Scripts
 {
     public static class Build
     {
-        [MenuItem("Build/Dangerously build and upload")]
+        [MenuItem("Build/WebGL build and upload")]
         private static void WebGlBuild()
         {
-            BuildTheGame();
+            BuildTheGame(BuildTarget.WebGL);
             UploadToItchIo();
+        }
+
+        [MenuItem("Build/Mac")]
+        private static void MacBuild()
+        {
+            BuildTheGame(BuildTarget.StandaloneOSX);
+        }
+
+        [MenuItem("Build/Windows")]
+        private static void WindowsBuild()
+        {
+            BuildTheGame(BuildTarget.StandaloneWindows64);
         }
 
         private static void BumpVersion()
@@ -21,11 +33,11 @@ namespace Editor.Scripts
             PlayerSettings.bundleVersion = string.Join(".", versionParts);
         }
 
-        private static void BuildTheGame()
+        private static void BuildTheGame(BuildTarget buildTarget)
         {
-            var path = $"{System.IO.Directory.GetCurrentDirectory()}/Builds/{PlayerSettings.bundleVersion}";
+            var path = $"{System.IO.Directory.GetCurrentDirectory()}/Builds/{buildTarget.ToString()}/{PlayerSettings.productName}";
 
-            BuildPipeline.BuildPlayer(GetScenes(), path, BuildTarget.WebGL, BuildOptions.None);
+            BuildPipeline.BuildPlayer(GetScenes(), path, buildTarget, BuildOptions.None);
         }
 
         private static void UploadToItchIo()
