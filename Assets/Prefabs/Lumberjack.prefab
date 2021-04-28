@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overcomingSuccessRate: 0.25
-  panicAttackDuration: 2
+  panicAttackDuration: 3
   overcomingDuration: 10
   panicAttackEffect: {fileID: 0}
 --- !u!114 &-2676680992905753291

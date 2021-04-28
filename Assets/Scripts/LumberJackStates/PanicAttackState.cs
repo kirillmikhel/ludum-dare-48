@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 public class PanicAttackState : MonoBehaviour
 {
     public float overcomingSuccessRate = 0.25f;
-    public float panicAttackDuration = 2.0f;
+    public float panicAttackDuration = 3.0f;
     public float overcomingDuration = 5.0f;
     public PanicAttackEffect panicAttackEffect;
     private LumberjackStateMachine _lumberjackStateMachine;
@@ -31,7 +31,6 @@ public class PanicAttackState : MonoBehaviour
     private void OnEnable()
     {
         _lumberjackData = GetComponent<LumberjackData>();
-        _lumberjackData.panic = _lumberjackData.panicLimit / 2;
 
         GetComponentInChildren<Animator>().SetBool(IsPanicking, true);
 
@@ -48,13 +47,9 @@ public class PanicAttackState : MonoBehaviour
 
     private IEnumerator PanicAttackResolving()
     {
-        Debug.Log("shaking and screaming...");
-
         yield return new WaitForSeconds(panicAttackDuration);
 
         var hasOvercome = Random.value < overcomingSuccessRate;
-
-        Debug.Log(hasOvercome ? "Overcoming" : "Quirk");
 
         if (hasOvercome)
         {
@@ -78,6 +73,8 @@ public class PanicAttackState : MonoBehaviour
 
             _lumberjackData.quirks.Add(possibleQuirks[Random.Range(0, possibleQuirks.Length)]);
         }
+
+        _lumberjackData.panic = _lumberjackData.panicLimit / 2;
 
         _lumberjackStateMachine.TransitionTo(_movingState);
     }

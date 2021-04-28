@@ -45,10 +45,13 @@ public class WoodCuttingState : MonoBehaviour
             GetComponent<LumberjackStateMachine>().TransitionTo(GetComponent<ScaredState>());
         }
 
-        var transform1 = transform;
-        var direction = target.transform.position - transform1.position;
-        transform.rotation = Quaternion.Slerp(transform1.rotation, Quaternion.LookRotation(direction),
-            _lumberjackData.rotationSpeed * Time.deltaTime);
+        if (target != null)
+        {
+            var transform1 = transform;
+            var direction = target.transform.position - transform1.position;
+            transform.rotation = Quaternion.Slerp(transform1.rotation, Quaternion.LookRotation(direction),
+                _lumberjackData.rotationSpeed * Time.deltaTime);
+        }
     }
 
     private void TransitionToMovingState(InputAction.CallbackContext ctx)

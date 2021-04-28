@@ -26,8 +26,11 @@ public class PanicSystem : MonoBehaviour
 
             if (_lumberjackData.panic >= _lumberjackData.panicLimit)
             {
-                _lumberjackData.GetComponent<LumberjackStateMachine>()
-                    .TransitionTo(_lumberjackData.GetComponent<PanicAttackState>());
+                var panicAttackState = _lumberjackData.GetComponent<PanicAttackState>();
+
+                _lumberjackData.GetComponent<LumberjackStateMachine>().TransitionTo(panicAttackState);
+
+                yield return new WaitForSeconds(panicAttackState.panicAttackDuration);
             }
         }
     }
