@@ -32,7 +32,7 @@ public class QuirkSystem : MonoBehaviour
 
             if (quirks.Count > 0)
             {
-                _lumberjackData.activeQuirks.Add(quirks[Random.Range(0, quirks.Count - 1)]);
+                _lumberjackData.activeQuirks.Add(quirks[Random.Range(0, quirks.Count)]);
 
                 StartCoroutine(ClearAllQuirks());
             }

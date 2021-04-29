@@ -7,9 +7,7 @@ using Random = UnityEngine.Random;
 
 public class PanicAttackState : MonoBehaviour
 {
-    public float overcomingSuccessRate = 0.25f;
     public float panicAttackDuration = 3.0f;
-    public float overcomingDuration = 5.0f;
     public PanicAttackEffect panicAttackEffect;
     private LumberjackStateMachine _lumberjackStateMachine;
     private LumberjackData _lumberjackData;
@@ -49,45 +47,8 @@ public class PanicAttackState : MonoBehaviour
     {
         yield return new WaitForSeconds(panicAttackDuration);
 
-        var hasOvercome = Random.value < overcomingSuccessRate;
-
-        if (hasOvercome)
-        {
-            var possibleOvercomings = new[]
-            {
-                Overcoming.InstantTreeCutting,
-                Overcoming.DoubleSpeed,
-            };
-
-            _lumberjackData.overcomings.Add(possibleOvercomings[Random.Range(0, possibleOvercomings.Length)]);
-            StartCoroutine(ClearAllOvercomings());
-        }
-        else
-        {
-            var possibleQuirks = new[]
-            {
-                Quirk.Weak,
-                Quirk.CanNotUseBonfire,
-                Quirk.TooScaredToMove,
-            };
-
-            _lumberjackData.quirks.Add(possibleQuirks[Random.Range(0, possibleQuirks.Length)]);
-        }
-
-        _lumberjackData.panic = _lumberjackData.panicLimit / 2;
+        GetComponent<PanicSystem>().Resolve();
 
         _lumberjackStateMachine.TransitionTo(_movingState);
-    }
-
-    private IEnumerator ClearAllOvercomings()
-    {
-        yield return new WaitForSeconds(overcomingDuration);
-
-        _lumberjackData.overcomings.Clear();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }

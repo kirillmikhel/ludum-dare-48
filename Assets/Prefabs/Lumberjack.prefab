@@ -208,9 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4caa801d7aec345dea50d890e4d4ba60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  overcomingSuccessRate: 0.25
   panicAttackDuration: 3
-  overcomingDuration: 10
   panicAttackEffect: {fileID: 0}
 --- !u!114 &-2676680992905753291
 MonoBehaviour:
@@ -304,6 +302,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tick: 2
+  overcomingSuccessRate: 0.25
+  overcomingDuration: 10
+  overcomingSplash: {fileID: 0}
+  quirkSplash: {fileID: 0}
 --- !u!114 &5707508227981095885
 MonoBehaviour:
   m_ObjectHideFlags: 0
