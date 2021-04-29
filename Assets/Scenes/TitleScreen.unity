@@ -320,8 +320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: The Legendary Tree Hunt    The Legendary Tree Hunt    The Legendary Tree
-    Hunt
+  m_Text: T h e    L e g e n d a r y   T r e e   H u n t
 --- !u!222 &450640187
 CanvasRenderer:
   m_ObjectHideFlags: 0
