@@ -19,7 +19,7 @@ public class ForestDepthVolume : MonoBehaviour
     {
         if (other.CompareTag("Lumberjack"))
         {
-            other.GetComponent<LumberjackData>().forestDepth += 1;
+            other.GetComponent<LumberjackData>().IncreaseForestDepth();
         }
     }
 
@@ -27,7 +27,7 @@ public class ForestDepthVolume : MonoBehaviour
     {
         if (other.CompareTag("Lumberjack"))
         {
-            other.GetComponent<LumberjackData>().forestDepth -= 1;
+            other.GetComponent<LumberjackData>().DecreaseForestDepth();
         }
     }
 

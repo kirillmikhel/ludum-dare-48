@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e01f7e62-f240-48bc-a88b-32e6d67288cf}">
+		<property name="assetPath">
+			<value>Chopping Wood/Final chop 2_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.98777083333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d005228-1575-4af9-98ca-fe12481baaec}</destination>
+		</relationship>
+	</object>
+</objects>

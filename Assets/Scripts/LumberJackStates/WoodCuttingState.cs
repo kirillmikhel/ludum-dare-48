@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Cinemachine;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
@@ -8,6 +9,7 @@ using UnityEngine.InputSystem;
 public class WoodCuttingState : MonoBehaviour
 {
     public Tree target;
+    public StudioEventEmitter choppingWoodEventEmitter;
     private LumberjackData _lumberjackData;
     private static readonly int IsSwingingAxe = Animator.StringToHash("IsSwingingAxe");
 
@@ -64,6 +66,9 @@ public class WoodCuttingState : MonoBehaviour
         if (target == null) return;
 
         target.ReceiveDamage(_lumberjackData.GetAxeDamage());
+
+        choppingWoodEventEmitter.Play();
+        choppingWoodEventEmitter.SetParameter("IsTreeDead", target.IsDead ? 1: 0);
 
         if (target.IsDead)
         {

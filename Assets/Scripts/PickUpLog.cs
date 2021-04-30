@@ -6,7 +6,7 @@ public class PickUpLog : MonoBehaviour
     {
         if (other.CompareTag("Lumberjack"))
         {
-            other.GetComponent<LumberjackData>().wood += 1;
+            other.GetComponent<LumberjackData>().IncreaseWood();
             Destroy(gameObject);
         }
     }

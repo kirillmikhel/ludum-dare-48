@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 public class LumberjackData : MonoBehaviour
@@ -18,6 +19,8 @@ public class LumberjackData : MonoBehaviour
     public List<Overcoming> overcomings;
     public List<Quirk> quirks;
     public List<Quirk> activeQuirks;
+    public StudioEventEmitter ambientEventEmitter;
+    public StudioEventEmitter woodPickUpEventEmitter;
 
     public int GetPanicRate() => isRelaxing ? -relaxingRate : basePanicRate + forestDepth;
 
@@ -43,4 +46,24 @@ public class LumberjackData : MonoBehaviour
     public bool CanUseBonfire() => !activeQuirks.Contains(Quirk.CanNotUseBonfire);
 
     public float GetSpeed() => overcomings.Contains(Overcoming.DoubleSpeed) ? speed * 2 : speed;
+
+    public void IncreaseForestDepth()
+    {
+        forestDepth++;
+        ambientEventEmitter.SetParameter("ForestDepth", forestDepth);
+        ambientEventEmitter.Play();
+    }
+
+    public void DecreaseForestDepth()
+    {
+        forestDepth--;
+        ambientEventEmitter.SetParameter("ForestDepth", forestDepth);
+        ambientEventEmitter.Play();
+    }
+
+    public void IncreaseWood()
+    {
+        wood++;
+        woodPickUpEventEmitter.Play();
+    }
 }

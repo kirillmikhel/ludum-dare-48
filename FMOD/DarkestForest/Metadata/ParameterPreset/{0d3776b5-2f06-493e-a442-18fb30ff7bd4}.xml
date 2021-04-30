@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{0d3776b5-2f06-493e-a442-18fb30ff7bd4}">
+		<property name="name">
+			<value>ForestDepth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{81c54ce1-09e2-437a-b41b-6482300c60f6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{67dbb217-5017-4bf5-b95a-7e738abe75e6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{67dbb217-5017-4bf5-b95a-7e738abe75e6}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

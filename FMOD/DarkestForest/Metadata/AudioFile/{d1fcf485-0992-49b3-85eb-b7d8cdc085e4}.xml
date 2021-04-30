@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d1fcf485-0992-49b3-85eb-b7d8cdc085e4}">
+		<property name="note">
+			<value>https://freesound.org/people/EminYILDIRIM/sounds/553391/</value>
+		</property>
+		<property name="assetPath">
+			<value>Chopping Wood/Chop wood Extra.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.6666666666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d005228-1575-4af9-98ca-fe12481baaec}</destination>
+		</relationship>
+	</object>
+</objects>

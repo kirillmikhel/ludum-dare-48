@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a010ac24-9831-4309-8115-f38108713fb7}">
+		<property name="assetPath">
+			<value>Pick up wood/Pick up wood 3.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.088062500000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d005228-1575-4af9-98ca-fe12481baaec}</destination>
+		</relationship>
+	</object>
+</objects>

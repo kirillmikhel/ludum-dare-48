@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{6f79b44c-0ce4-42ee-84ee-a42680d74170}">
+		<property name="assetPath">
+			<value>Wind/Wind gentle.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.972083333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5d005228-1575-4af9-98ca-fe12481baaec}</destination>
+		</relationship>
+	</object>
+</objects>

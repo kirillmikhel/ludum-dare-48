@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{52a44450-f8da-4fcf-b11b-375c2fd2b637}">
+		<property name="name">
+			<value>IsTreeDead</value>
+		</property>
+		<relationship name="folder">
+			<destination>{81c54ce1-09e2-437a-b41b-6482300c60f6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cc545099-4c78-4a06-b872-414222a687dd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cc545099-4c78-4a06-b872-414222a687dd}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
