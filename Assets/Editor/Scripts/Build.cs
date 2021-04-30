@@ -5,11 +5,10 @@ namespace Editor.Scripts
 {
     public static class Build
     {
-        [MenuItem("Build/WebGL build and upload")]
+        [MenuItem("Build/WebGL")]
         private static void WebGlBuild()
         {
             BuildTheGame(BuildTarget.WebGL);
-            UploadToItchIo();
         }
 
         [MenuItem("Build/Mac")]
@@ -22,6 +21,20 @@ namespace Editor.Scripts
         private static void WindowsBuild()
         {
             BuildTheGame(BuildTarget.StandaloneWindows64);
+        }
+
+        [MenuItem("Build/All")]
+        private static void BuildAll()
+        {
+            MacBuild();
+            WindowsBuild();
+            WebGlBuild();
+        }
+
+        [MenuItem("Build/Upload all builds to itch.io")]
+        private static void UploadToItchIo()
+        {
+            SpawnShellProcess("upload");
         }
 
         private static void BumpVersion()
@@ -40,11 +53,6 @@ namespace Editor.Scripts
             BuildPipeline.BuildPlayer(GetScenes(), path, buildTarget, BuildOptions.None);
         }
 
-        private static void UploadToItchIo()
-        {
-            SpawnShellProcess("upload");
-        }
-        
         private static void SpawnShellProcess(string processName)
         {
             var process = new Process()
