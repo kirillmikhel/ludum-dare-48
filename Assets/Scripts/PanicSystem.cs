@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using FMODUnity;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -12,6 +13,9 @@ public class PanicSystem : MonoBehaviour
     public float overcomingDuration = 10.0f;
     public SplashUI overcomingSplash;
     public SplashUI quirkSplash;
+    public StudioEventEmitter panicEventEmitter;
+    public StudioEventEmitter overcomingEventEmitter;
+    public StudioEventEmitter quirkEventEmitter;
     private Coroutine _growingPanic;
     private LumberjackData _lumberjackData;
 
@@ -43,8 +47,20 @@ public class PanicSystem : MonoBehaviour
 
             _lumberjackData.panic = Mathf.Max(0, _lumberjackData.panic + _lumberjackData.GetPanicRate());
 
+            if (_lumberjackData.panic < 95)
+            {
+                panicEventEmitter.SetParameter("Panic", 0);
+            }
+
+            if (_lumberjackData.panic > 95)
+            {
+                panicEventEmitter.SetParameter("Panic", 1);
+            }
+
             if (_lumberjackData.panic >= _lumberjackData.panicLimit)
             {
+                panicEventEmitter.SetParameter("Panic", 2);
+
                 var panicAttackState = _lumberjackData.GetComponent<PanicAttackState>();
 
                 _lumberjackData.GetComponent<LumberjackStateMachine>().TransitionTo(panicAttackState);
@@ -68,6 +84,8 @@ public class PanicSystem : MonoBehaviour
     {
         var hasOvercome = Random.value < overcomingSuccessRate;
 
+        panicEventEmitter.SetParameter("Panic", 0);
+
         if (hasOvercome)
         {
             var overcoming = _possibleOvercomings[Random.Range(0, _possibleOvercomings.Length)];
@@ -76,6 +94,8 @@ public class PanicSystem : MonoBehaviour
 
             overcomingSplash.Show(overcoming.ToReadableString());
 
+            overcomingEventEmitter.Play();
+
             StartCoroutine(ClearAllOvercomings());
         }
         else
@@ -83,6 +103,8 @@ public class PanicSystem : MonoBehaviour
             var quirk = _possibleQuirks[Random.Range(0, _possibleQuirks.Length)];
 
             _lumberjackData.quirks.Add(quirk);
+
+            quirkEventEmitter.Play();
 
             quirkSplash.Show(quirk.ToReadableString());
         }
